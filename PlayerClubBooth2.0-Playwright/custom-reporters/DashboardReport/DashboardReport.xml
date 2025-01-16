@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testResults version='1.0'>
+<httpSample t='60676'  s='true' lb='1 - Scenario Outline: As a user , I can delete a comment @CommentsTab @Regression'>
+<sample></sample>
+<responseData class='java.lang.String'>Passed. No issues observed during execution.</responseData>
+</httpSample>
+</testResults>

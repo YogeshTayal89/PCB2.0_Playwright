@@ -1,0 +1,188 @@
+{
+    "credentials": {
+        "testdata": [
+            {
+                "username": "PCBAUTOMATION",
+                "password": "123456",
+                "userfname" :"PCB QA",
+                "userlname" :"AUTOMATION",
+                 "dbpm":"Server=192.168.128.163,1433;Database=PlayerManagement;User Id=sa;Password=IGTtest1;Encrypt=false;trustServerCertificate=true"
+            }
+        ]
+    },
+    "enrollment": {
+        "testdata": [
+            {
+                "firstname": "Donald",
+                "middlename": "John",
+                "lastname":"Trump",
+                "preferredname":"Emma",
+                "taxid":"445675155",
+                "phonenumber":"9876543210",
+                "email":"sampleemail@gmail.com",
+                "frequentflyerinfo":"WRRVEFGJF",
+                "companyname":"Republican Party",
+                "companyposition":"QA",
+                "ssn":"445123456",
+                "crossref":"TestingData",
+                "country":"United States of America",
+                "newcountry" :"India",
+                "state":"Alaska",
+                "idtype":"Drivers License",
+                "id":"44567515524",
+                "gender":"Male",
+                "suffix":"M.D.",
+                "addressline":"Sample Address",
+                "addresstype":"Home",
+                "addresszipcode":"10001",
+                "newaddresszipcode":"73921",
+                "addressstate":"New York",
+                "addresscity":"NEW YORK",
+                "addressnewcity":"New City",
+                "phonetype":"Home",
+                "emailtype":"Main Email",
+                "mattractype":"Comedy Show",
+                "mlanguage":"English",
+                "maffiliationtype":"University",
+                "mflyertype":"American Airlines ",
+                "mflyerdetails":"sample flyer details",
+                "mcompany":"company",
+                "mposition":"position",
+                "emptytext":" ",
+                "source":"User",
+                "actualsource":"IGTSYSTEMS",
+                "mktauthenroll":"Not Assigned",
+                "idexpirydate":"01/01/2030"
+                
+            }
+        ]
+    },
+    "search": {
+        "testdata": [
+            {
+                "firstname": "SearchFeature",
+                "middlename": "Module",
+                "lastname":"Flowtesting",
+                "playerid":"23019",
+                "ssnid":"721934782",
+                "licenseid":"DL23875125371",
+                "passportnumber":"",
+                "dob":"06/26/2003",
+                "phonenum":"7666500195",
+                "cardnumber":"12345665000932497754",
+                "lessthan3digit":"HH",
+                "morethan100char":"ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp",
+                "email":"searchflow@testing.com",
+                "postalcode":"89108",
+                "stateaddress":"LAS VEGAS, 89108, US",
+                "cityaddress":"LAS VEGAS, 89108, US",
+                "emptytext":" "
+            },
+            {
+                "firstname": "SearchFeaturetwo",
+                "middlename": "moduletwo",
+                "lastname":"Jactestingtwok",
+                "playerid":"23039",
+                "ssnid":"",
+                "licenseid":"",
+                "passportnumber":"9716936242",
+                "dob":"",
+                "cardnumber":"12345665000932762510",
+                "lessthan3digit":"DD",
+                "morethan50char":"",
+                "email":"jacj@gmail.com",
+                "postalcode":"10001",
+                "stateaddress":"USA, NEW YORK, 10001, US",
+                "cityaddress":"NEW YORK, 10001, US"
+            },
+            {
+                "firstname": "SearchFeaturetwo",
+                "middlename": "moduletwo",
+                "lastname":"testingtwo",
+                "playerid":"23039",
+                "passportnumber":"9716936242"
+            }
+        ]
+        
+    },
+
+    "redeemcoupons":{
+
+        "testdata":[
+
+            {
+                "playerid":"146",
+                "firstname": "Comps",
+                "quantity" :"2",
+                "rewardtype":"Rewards balance",
+                "rewardcompname":"AutomationTest (10.00 - 2)",
+                "cashbacktype":"Points",
+                "cashbackcompname":"$1.00 Auto Redeem",
+                "primarycomptype":"Primary Comp",
+                "primarycompname":"$1.00 Auto Redeem",
+                "restrictedcommenttext":"SampleText",
+                "invalidcouponid":"23456",
+                "validcouponid":"53",
+                "compcouponid" :"1"
+            }
+            
+        ]
+    },
+
+    "printcard":{
+
+        "testdata":[
+            {
+                "playerid":"22595",
+                "firstname": "Playwright"
+            }
+        ]
+    },
+    "comments":{
+
+        "testdata":[
+            {
+                "playerid":"22595",
+                "fname" :"Playwright"
+            }
+        ]
+    },
+
+    "topparts":{
+
+        "testdata":[
+            {
+                "playerid":"22807",
+                "firstname": "Elizabeth",
+                "middlename": "Mike",
+                "lastname":"Jones",
+                "id":"44567515524"
+            }
+        ]
+    },
+
+    "relations":{
+
+        "testdata":[
+            {
+                "playerid":"22807",
+                "firstname" :"Elizabeth",
+                "playeridtobelinked": "22808",
+                "linkfname" :"Link",
+                "secondplayertobelinked": "28133",
+                "secondfname" :"NewLink"
+            }
+        ]
+    },
+
+    "gamingprofile":{
+
+        "testdata":[
+            {
+                "playerid":"162",
+                "firstname" :"GamingProfile" 
+            }
+        ]
+    }
+
+}
